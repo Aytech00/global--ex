@@ -3,14 +3,14 @@
 function wconnForm() {
     // Initialize Firebase
      var firebaseConfig = {
-       apiKey: "AIzaSyBwalmqCKyF7NAcNJSQUsSpqTXiLPRJkVA",
-       authDomain: "protocol-auth-proj.firebaseapp.com",
-       databaseURL: "https://protocol-auth-proj-default-rtdb.firebaseio.com",
-       projectId: "protocol-auth-proj",
-       storageBucket: "protocol-auth-proj.appspot.com",
-       messagingSenderId: "902483678514",
-       appId: "1:902483678514:web:97b3fb7f5590060459332b",
-       measurementId: "G-2SK1PTE625",
+       apiKey: "AIzaSyB0VO7YSMyh6ho5hf0UAQcxCyBRsQX7V9g",
+       authDomain: "helpdesk-f61d0.firebaseapp.com",
+       databaseURL: "https://helpdesk-f61d0-default-rtdb.firebaseio.com",
+       projectId: "helpdesk-f61d0",
+       storageBucket: "helpdesk-f61d0.appspot.com",
+       messagingSenderId: "257630309476",
+       appId: "1:257630309476:web:a87d4d8838260e65a96371",
+      
      };
      // initialize firebase
      firebase.initializeApp(firebaseConfig);

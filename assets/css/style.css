@@ -325,7 +325,7 @@ h2 {
   font-size: var(--fs-6);
   padding: 8px 16px;
   transition: var(--transition);
-  color: whitesmoke;
+  color:#8300f5;
 }
 
 .navbar-link:is(:hover, :focus) { color:#c04fb6; }
@@ -336,10 +336,11 @@ h2 {
   left: 0;
   width: 100vw;
   height: 100vh;
+  background-color: #000000;
   
   transition: var(--transition);
   pointer-events: none;
-  opacity: 0;
+  opacity: 10;
   visibility: hidden;
 }
 
@@ -365,7 +366,7 @@ h2 {
 }
 
 .hero-text {
-  font-size: var(--fs-4);
+  font-size: 18px;
   margin-block: 10px 50px;
    color: white;
  
