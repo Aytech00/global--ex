@@ -202,7 +202,7 @@ body.active { overflow-y: hidden; }
   transition: var(--transition);
 }
 
-.btn-primary:is(:hover, :focus) { background-color: #c04fb6; color: white; }
+.btn-primary:is(:hover, :focus) { background-color:#05d395b2; color: white; }
 
 .w-100 { width: 100%; }
 
@@ -325,7 +325,7 @@ color:  #05d394;;
   font-size: var(--fs-6);
   padding: 8px 16px;
   transition: var(--transition);
-  color:black;
+  color: whitesmoke
 }
 
 .navbar-link:is(:hover, :focus) { color:whitesmoke; }
@@ -336,17 +336,17 @@ color:  #05d394;;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #000000;
+  background-color:#05d3959e;
   
   transition: var(--transition);
   pointer-events: none;
-  opacity: 10;
+  opacity: 15;
   visibility: hidden;
 }
 
 .overlay.active {
   pointer-events: all;
-  opacity: 0.75;
+  opacity: 5;
   visibility: visible;
 }
 
@@ -423,7 +423,7 @@ color:  #05d394;;
 }
 
 .promo-card .card-icon {
-  background-color: var(--onyx-1);
+  background-color:#05d394;
   color: var(--white);
   width: max-content;
   font-size: 24px;

@@ -90,6 +90,14 @@ background-color: #0D2740;
   color: whitesmoke;
 }
 
+.payment-instruction{
+  color: #05d394;
+  margin: 5% 0px;
+}
+.wallet-text{
+  color: rgba(236, 234, 234, 0.836);
+}
+
 
 
 @media screen and (max-width: 1000px) {
