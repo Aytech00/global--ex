@@ -279,12 +279,12 @@ color:  #05d394;;
 }
 
 .nav-open-btn {
-  color: white;
+ color: #05d394;
   font-size: 30px;
   transition: var(--transition);
 }
 
-.nav-open-btn:is(:hover, :focus) { color: white; }
+.nav-open-btn:is(:hover, :focus) { color: #05d394; }
 
 .navbar {
   position: fixed;
@@ -310,24 +310,25 @@ color:  #05d394;;
 .navbar-top { margin-block-end: 30px; }
 
 .nav-close-btn {
-  background-color: var(--white);
+ color: black;
   color: var(--fiery-rose);
+  border: 0;
   font-size: 20px;
   padding: 5px;
   border-radius: var(--radius-circle);
 }
 
-.nav-close-btn ion-icon { --ionicon-stroke-width: 45px; }
+.nav-close-btn { --ionicon-stroke-width: 45px; }
 
 .navbar-link {
   font-family: var(--ff-poppins);
   font-size: var(--fs-6);
   padding: 8px 16px;
   transition: var(--transition);
-  color:#05d394;
+  color:black;
 }
 
-.navbar-link:is(:hover, :focus) { color:#c04fb6; }
+.navbar-link:is(:hover, :focus) { color:whitesmoke; }
 
 .overlay {
   position: fixed;
